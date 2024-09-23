@@ -76,7 +76,7 @@ export default function InviteModal({ isOpen, onClose }: InviteModalProps) {
               fill="#8884d8"
               dataKey="value"
               
-            >{/* @ts--ignore*/}
+            >{/* @ts-ignore*/}
               {data.map((entry, index) => (
                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
               ))}
